@@ -16,3 +16,6 @@ if (carousel) {
     carousel.scrollBy({ left: +260, behavior: "smooth" });
   });
 }
+
+const premierItem = document.querySelector(".carousel__item");
+const scrollAmount = premierItem.clientWidth;
