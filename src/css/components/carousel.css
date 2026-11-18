@@ -89,3 +89,32 @@ Les margin négatifs à gauche et à droite corresponde à l'éespace entre le n
     width: 40%;
   }
 }
+
+.carousel {
+  position: relative; /* Sert de repère uniquement aux boutons gauche/droite */
+}
+
+.carousel__button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.carousel__button--prev {
+  left: 10px;
+}
+
+.carousel__button--next {
+  right: 10px;
+}
+
+/* Liste 1 2 3 4 5 bien visible en bas */
+.carousel__anchors {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+}
