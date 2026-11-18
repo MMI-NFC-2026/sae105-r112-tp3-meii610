@@ -77,3 +77,15 @@ Les margin négatifs à gauche et à droite corresponde à l'éespace entre le n
   /* Affiche l'image comme un bloc - https://developer.mozilla.org/fr/docs/Web/CSS/display */
   display: block;
 }
+
+.carousel__item {
+  flex: none;
+  width: 80%; /* Sur mobile, une image occupe 80% de la largeur visible */
+}
+
+/* Sur écran plus large (tablette / ordinateur) */
+@media (min-width: 768px) {
+  .carousel__item {
+    width: 40%;
+  }
+}
