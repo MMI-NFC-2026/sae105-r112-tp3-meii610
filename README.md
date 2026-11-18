@@ -1,6 +1,6 @@
-- nom :
-- prénom :
-- URL Netlify :
+- nom : KHANKOUIAN
+- prénom : Mathéo
+- URL Netlify : https://magnificent-malasada-4da4a9.netlify.app/
 
 # Travail
 
